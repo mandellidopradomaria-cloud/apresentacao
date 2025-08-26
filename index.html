@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="estiles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendas da mari</title>
+</head>
+
+<body>
+    <div id="banner">
+        <div class="banner-conteudo">
+            <img src="https://png.pngtree.com/png-vector/20230728/ourmid/pngtree-monogram-clipart-floral-initial-letter-m-with-pink-flowers-and-leafs-vector-png-image_6808090.png"
+                alt="Logo da Mini Lojinha" class="logo">
+            <h1>Vendas da Mari</h1>
+        </div>
+    </div>
+
+    <div class="texto">
+        <p>📞Telefone para contato: 49 9 000 000 00</p>
+        <p>📧Email para Contato: VendasdaMari@gmail.com.br</p>
+        <p>📸Instagram Oficial da Loja: @VendasMari</p>
+        <p> 👇 Ir para o App Oficial Vendas da Mari</p>
+        <a href="App://rota/parametro">Abrir App</a>
+        </p>
+    </div>
+
+    <h2>Tendências</h2>
+    <div class="imagens">
+
+        <div class="imagens">
+            <a href="produto1.html">
+                <img src="https://i.pinimg.com/1200x/f1/4e/a9/f14ea90be5c665902400d53e3880b4b2.jpg" width="150px"
+                    alt="Produto 1">
+            </a>
+
+            <a href="produto2.html">
+                <img src="https://i.pinimg.com/1200x/d5/a7/40/d5a74060bb2c32af345866144b93e172.jpg" width="150px"
+                    alt="Blusinha Branca Clássica" />
+            </a>
+
+            <a href="produto3.html">
+                <img src="https://i.pinimg.com/1200x/7a/3f/f4/7a3ff4ce69c22716129d05c8f53956ee.jpg" width="150px"
+                    alt="Produto 3">
+            </a>
+
+            <a href="produto4.html">
+                <img src="https://i.pinimg.com/1200x/a9/0e/10/a90e1019975b490d9725cdac9d52ef62.jpg" width="150px"
+                    alt="Produto 4">
+            </a>
+
+        </div>
+
+
+        <h2>Acessórios</h2>
+
+        <div class="produto">
+            <p>Brinco de coração - R$15,00</p>
+            <button onclick="adicionarAoCarrinho('Brinco de coração', 15)">Adicionar ao carrinho</button>
+        </div>
+
+        <div class="produto">
+            <p>Colar dourado - R$25,00</p>
+            <button onclick="adicionarAoCarrinho('Colar dourado', 25)">Adicionar ao carrinho</button>
+        </div>
+
+        <div class="produto">
+            <p>Pulseira simples - R$10,00</p>
+            <button onclick="adicionarAoCarrinho('Pulseira simples', 10)">Adicionar ao carrinho</button>
+        </div>
+
+        <h2>Carrinho de Compras</h2>
+        <ul id="carrinho"></ul>
+
+        <p><strong>Total:</strong> R$<span id="total">0.00</span></p>
+
+</body>
+
+</html>

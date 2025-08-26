@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(240, 212, 248);
+  font-family: "Lucida Sans";
+  font-size: medium;
+  padding: 20px;
+}
+#banner {
+  background-color: rgb(191, 153, 199);
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 10px;
+}
+
+.banner-conteudo {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* espaçamento entre logo e título */
+}
+
+.texto {
+  font-family: Georgia;
+  font-size: small;
+  margin: auto;
+}
+
+.imagens img {
+  border: 1px solid #cc00ff;
+  border-radius: 8px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.imagens img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.logo {
+  width: 80px;
+}
+
+.produto {
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #ff6090;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e94d7d;
+}
